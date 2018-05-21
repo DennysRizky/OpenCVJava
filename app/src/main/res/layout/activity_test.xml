@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.icsp.opencvjava.Test"
+    android:background="@color/colorPrimaryDark">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:src="@mipmap/ic_launcher"
+            android:background="#fff"
+            />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:background="@drawable/list_bg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:hint="Angka"
+            android:padding="5dp"/>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_bg"
+            android:textColor="#000"
+            android:text="LANJUT"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
